@@ -1,36 +1,23 @@
 How to Use
+Xbox controller only
+Left stick and right stick comprise movement
+Difference in vertical axes causes rotation.
+Agreed vertical axis values move the tank forward or backward.
+Holding the right trigger fires bullets automatically.
+Watch out for those turrets and tanks!
 
-Xbox Controller:
+Attribution:
+Copyright 2008 Jordan Trudgett | http://jordan.trudgett.com/ - Licensed under CC BY 3.0 http://creativecommons.org/licenses/by/3.0/ "ardentryst_spritesheet.png"
 
-Start to start game
-Dual Stick movement - Strafing enabled. ;)
-Right Trigger hold to fire
-Start to pause
-Back to pause
-Start when dead to respawn
-Start when paused to resume
-Back when paused to return to main screen
-Back when at main screen to quit
+mainMusic.mp3 from http://freemusicarchive.org/music/RoccoW/~/RoccoW_-_wbfdfbgkg_-__Outline_2015  CC BY SA license
 
-Map Editing:
-1 px per tile
-ALL pixels must have a recognized color
-The map MUST be rimmed in the STONE color (if you travel outside of the map, the game will crash)
-There must be EXACTLY ONE player start pixel
-The game will play through maps in the Data/Maps directory using the following order: Map1.png, Map2.png, ...
-Play advances to the next map when all enemies have been defeated
-If the player defeats all enemies in the highest-level map, the game closes
+attract.mp3 from http://freemusicarchive.org/music/Azureflux/Pocket_Boy/02_azureflux_-_strike_witches_get_bitches
 
-Colors:
-STONE: 8D9EAE
-GRASS: 02FF41
-ENEMY_TANK: FF0303
-ENEMY_TURRET: EEFF03
-PLAYER_START: 0213FF
+MulticolorTanks.png from http://www.xnaresources.com/default.asp?page=tutorial:spriteengine:1, taken from Spritelib GPL, which doesn't exist anymore?  The link was flyingyogi.com/fun/spritelib.html
 
 
 
 
 
 IMPORTANT:
-If the game does not start due to a VS140 error or some such, please run and install vc_redist.x86 and try again
+If game does not run due to VS140 error or similar, please run and install vc_redist.x86 and try again.
